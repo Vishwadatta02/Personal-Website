@@ -1,0 +1,114 @@
+*{
+	box-sizing: box-border;
+	position: relative;
+}
+.nav_bar{	
+	background-color: rgb(253, 0253, 010);
+	border-style: ridge;
+	border-color: black;	
+	border-radius: 10px;
+}
+#student,#branch{
+	margin-left: 60px;
+	font-size: large;
+	font-style: italic;
+	margin-top: 10px;
+}
+.Name{
+	padding-left: 60px;
+	font-size: xx-large;
+	font-style: italic;
+	font-weight: bolder;
+}
+.details{
+	margin-top: 10px;
+}
+.details_sub{
+	margin-left: 60px;
+	display: inline;
+}
+
+.details img{
+	width: 15px;
+	height: 15px;
+}
+body{
+	background-color: #34568B;
+}
+.subnav{
+	width: auto;
+	height: 50px;
+	text-align: center;
+	border: 5;
+}
+.links{
+	padding-right: 50px;
+	text-decoration: none;
+	padding-left: 50px;
+	font-family: fantasy;
+}
+#myphoto{
+	float: right;
+	margin-right: 80px;
+	width: 35%;
+	border-radius: 200px;
+	margin-top: 80px;
+	border: ridge;
+}
+#mainbody{
+	font-family:"Brush Script MT",cursive ;
+	font-size: 40px;
+	font-weight: bolder;
+	color: ghostwhite;
+	position: relative;
+	margin-top: 100px;
+	word-spacing: 13px;
+}
+.round{
+	width: 70px;
+	height: 70px;
+	border-radius: 70px;
+	background-color: floralwhite;
+	text-align: center;
+	vertical-align: middle;
+}
+h3{
+	color: whitesmoke;
+}
+.odd{
+	margin-left: 200px;
+}
+.container{
+	margin-left: 20%;
+	margin-right: 10%;
+}
+.up-left,.up-right,.down-left,.down-right{
+	width: 75%,auto;
+	height: 200px;
+	border-radius: 50px;
+	border-style: solid;
+	border-color: navajowhite;
+	background-color: aquamarine;
+	position: relative;
+}
+.up-left{
+	margin-left: 100px;	
+}
+.up-right{
+	margin-right: 100px;
+}
+.down-left{
+	margin-left: 100px;
+}
+.down-right{
+	margin-right: 100px;
+}
+#text-about{
+	font-family:"Brush Script MT",cursive ;
+	font-size: 27px;
+	color: black;
+	position: relative;
+	word-spacing: 13px;
+	text-align: center;
+	position: relative;
+}
