@@ -3,37 +3,43 @@
 	position: relative;
 }
 .nav_bar{	
-	background-color: rgb(253, 0253, 010);
-	border-style: ridge;
-	border-color: black;	
+	border-style: solid;
+	border-color: antiquewhite;	
 	border-radius: 10px;
+	border-width: .6em;
 }
 #student,#branch{
 	margin-left: 60px;
 	font-size: large;
 	font-style: italic;
 	margin-top: 10px;
+	color: ghostwhite;
 }
 .Name{
 	padding-left: 60px;
 	font-size: xx-large;
 	font-style: italic;
 	font-weight: bolder;
+	color: ghostwhite;
 }
 .details{
 	margin-top: 10px;
+	color: ghostwhite;
 }
 .details_sub{
 	margin-left: 60px;
 	display: inline;
+	color: ghostwhite;
 }
 
 .details img{
 	width: 15px;
 	height: 15px;
+	background-color: currentColor;
 }
 body{
-	background-color: #34568B;
+	background-image: url("C:\\Users\\DATTA\\Desktop\\Family Tree\\Resume\\bg.jpg");
+	background-attachment: fixed;
 }
 .subnav{
 	width: auto;
@@ -51,12 +57,12 @@ body{
 	float: right;
 	margin-right: 80px;
 	width: 35%;
-	border-radius: 200px;
+	border-radius: 300px;
 	margin-top: 80px;
 	border: ridge;
 }
 #mainbody{
-	font-family:sans-serif ;
+	font-family:"Brush Script MT",cursive ;
 	font-size: 40px;
 	font-weight: bolder;
 	color: ghostwhite;
@@ -72,9 +78,7 @@ body{
 	text-align: center;
 	vertical-align: middle;
 }
-h3{
-	color: whitesmoke;
-}
+
 .odd{
 	margin-left: 200px;
 }
@@ -83,13 +87,12 @@ h3{
 	margin-right: 10%;
 }
 .up-left,.up-right,.down-left,.down-right{
-	width: 75%,auto;
+	width: 75%;
 	height: 200px;
 	border-radius: 50px;
 	border-style: solid;
 	border-color: navajowhite;
-	background-color: aquamarine;
-	position: relative;
+	overflow: auto;
 }
 .up-left{
 	margin-left: 100px;	
