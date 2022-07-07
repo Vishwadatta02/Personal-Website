@@ -6,6 +6,7 @@
 	border-style: solid;	
 	border-radius: 10px;
 	border-width: .6em;
+	border-color: white;
 }
 #student,#branch{
 	margin-left: 60px;
