@@ -53,14 +53,7 @@ body{
 	padding-left: 50px;
 	font-family: fantasy;
 }
-#myphoto{
-	float: right;
-	margin-right: 80px;
-	width: 35%;
-	border-radius: 300px;
-	margin-top: 80px;
-	border: ridge;
-}
+
 #mainbody{
 	font-family:"Brush Script MT",cursive ;
 	font-size: 40px;
@@ -69,6 +62,7 @@ body{
 	position: relative;
 	margin-top: 100px;
 	word-spacing: 13px;
+	text-align: center;
 }
 
 .odd{
